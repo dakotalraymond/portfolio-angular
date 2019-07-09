@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -115,6 +115,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "portfolio-angular"
+    }
+  },
+  "defaultProject": "portfolio-angular",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

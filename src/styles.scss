@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Monda&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.accent-color {
+  font-family: 'Monda', sans-serif;
+  color: white;
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+.main-background {
+  background-color: #13425B;
+}
+
+.accent-background-1 {
+  background-color: #EFD10E;
+}
+
+.accent-background-2 {
+  background-color: #00B28B;
+}
+
+.accent-background-3 {
+  background-color: #DD5644;
+}
+
+.accent-background-4 {
+  background-color: #E27F2D;
+}
